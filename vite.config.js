@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://prozac-permanent-yeast-sacrifice.trycloudflare.com',
+        target: 'https://concerts-ever-pacific-privileges.trycloudflare.com',
         changeOrigin: true,
         secure: false,
         rewrite: (path) => path.replace(/^\/api/, ''),
